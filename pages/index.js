@@ -38,10 +38,15 @@ export default function Index() {
     <>
       <center className="main-text">Ape Digital Assets</center>
 
-      <center className="main-text youtribe">Your Ape</center>
 
+      <center className="main-text dow-ape">Download Your New Art</center>
       <div className="number-input-container">
-        <input type="number" />
+        <input type="number" placeholder="Your current lbac number" />
+      </div>
+
+      <center className="main-text youtribe">Your Ape</center>
+      <div className="number-input-container">
+        <input type="number" placeholder="please enter your lbac number again" />
         <button className="view-button">View</button>
         <button className="download-button" onClick={downloadImages}>Download</button>
       </div>

@@ -23,7 +23,7 @@ const Header = () => {
             <ul className="nav-list">
               <li className="nav-item">
                 <a href="#" className="nav-link">
-                  Link 1
+                  Assets
                 </a>
                 <span>
                   <svg
@@ -38,20 +38,26 @@ const Header = () => {
                 </span>
                 <ul className="dropdown">
                   <li>
-                    <a href="#" className="dropdown-link">
-                      Sublink 1
+                    <a
+                      href="https://www.lbac.app/Balance"
+                      className="dropdown-link"
+                    >
+                      User Balance
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="dropdown-link">
-                      Sublink 2
+                    <a
+                      href="https://www.lbac.app/SwapCoin"
+                      className="dropdown-link"
+                    >
+                      Swap Coin
                     </a>
                   </li>
                 </ul>
               </li>
               <li className="nav-item">
-                <a href="#" className="nav-link">
-                  Link 1
+                <a href="https://www.lbac.app/Marketplace" className="nav-link">
+                  Marketplace
                 </a>
                 <span>
                   <svg
@@ -66,13 +72,19 @@ const Header = () => {
                 </span>
                 <ul className="dropdown">
                   <li>
-                    <a href="#" className="dropdown-link">
-                      Sublink 1
+                    <a
+                      href="https://www.lbac.app/Raffle"
+                      className="dropdown-link"
+                    >
+                      Raffle
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="dropdown-link">
-                      Sublink 2
+                    <a
+                      href="https://www.lbac.app/Nana"
+                      className="dropdown-link"
+                    >
+                      Claim Nana
                     </a>
                   </li>
                 </ul>
@@ -95,7 +107,7 @@ const Header = () => {
           </div>
           <div>
             {" "}
-            <button className="header-button">Join Discord</button>{" "}
+            <button className="header-button">Connect Wallet</button>{" "}
           </div>
         </div>
       </div>
