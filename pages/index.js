@@ -44,12 +44,17 @@ export default function Index() {
         <input type="number" placeholder="Your current lbac number" />
       </div>
 
-      <center className="main-text youtribe">Your Ape</center>
+      <br />
+      <div className="number-input-container">
+        <button className="view-button">View</button>
+        <button className="download-button" onClick={downloadImages}>Download</button>
+      </div>
+      {/* <center className="main-text youtribe">Your Ape</center>
       <div className="number-input-container">
         <input type="number" placeholder="please enter your lbac number again" />
         <button className="view-button">View</button>
         <button className="download-button" onClick={downloadImages}>Download</button>
-      </div>
+      </div> */}
 
       <footer>
         <div className="footer-social-icons">
